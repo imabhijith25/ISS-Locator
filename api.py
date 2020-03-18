@@ -6,7 +6,7 @@ from datetime import date
 x = input("Enter the place ")
 parameters = {
     "q":x,
-    "key":"aad0de9f9034493591f07d83c0806ef6"
+    "key":"YOUR_KEY"
 }
 
 response = requests.get("https://api.opencagedata.com/geocode/v1/json",params=parameters)
